@@ -8,7 +8,7 @@ class LocalSeatRepository implements SeatRepository {
   @override
   List<Seat> getSeats() {
     const reserved = {'A3', 'B1', 'C10', 'D3', 'E7', 'F5'};
-    const disabled = {'A8', 'B6', 'C5', 'D8', 'E1'};
+    const disabled = {'B6', 'D8', 'E1'};
 
     return [
       for (var rowIndex = 0; rowIndex < rowLabels.length; rowIndex++)
