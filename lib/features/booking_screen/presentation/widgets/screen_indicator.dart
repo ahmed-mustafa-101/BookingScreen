@@ -27,7 +27,7 @@ class _ScreenArcPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final path = Path()
-      ..moveTo(size.width * .06.w, size.height * .42.h)
+      ..moveTo(size.width * .06, size.height * .42)
       ..quadraticBezierTo(
         size.width * .5,
         size.height * .06,
